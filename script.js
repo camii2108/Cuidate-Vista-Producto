@@ -7,8 +7,8 @@ let precioSeleccionado = document.getElementById("precio");
 
 function cargar(item){
     quitarBordes();
-    mostrador.style.width = "15%";
-    seleccion.style.width = "90%";
+    mostrador.style.width = "5%";
+    seleccion.style.width = "95%";
     seleccion.style.opacity = "1";
     item.style.border = "2px solid red";
 
